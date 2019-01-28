@@ -1,0 +1,9 @@
+[Unit]
+Description=syncthing
+
+[Service]
+ExecStart=/opt/bin/syncthing -no-browser -no-restart
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
