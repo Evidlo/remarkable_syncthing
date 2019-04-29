@@ -6,7 +6,7 @@ A guide for setting up Syncthing on a reMarkable.
 
 0. Install syncthing on the host machine and get the computer's id.  You must also have [Entware](http://github.com/evidlo/remarkable_entware) installed on the reMarkable.
 
-1. Install syncthing and start up the configuration GUI.
+1. Install syncthing on the reMarkable and start up the configuration GUI.
 
 ``` bash
 opkg install syncthing
@@ -35,4 +35,4 @@ systemctl enable syncthing
 
 - At least one of the devices must be publically accessible on TCP 22000.  Alternatively, if at least one of the devices can access the other on local intranet, you can add another discovery method via `[Remote Device] > Edit > Advanced > Addresses`.. eg: `tcp://192.168.1.123:22000`
 
-- Obviously WiFi needs to be on an connected for this to work.  Unless you've done modification, this means xochitl should be running.
+- WiFi needs to be on an connected for this to work, so xochitl should be running.
