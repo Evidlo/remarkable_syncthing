@@ -27,6 +27,7 @@ syncthing -gui-address "http://0.0.0.0:8888" -no-restart
 7. Copy `syncthing.service` to `/etc/systemd/system/` then start and enable the service
 
 ``` bash
+wget https://raw.githubusercontent.com/Evidlo/remarkable_syncthing/master/syncthing.service -O /etc/systemd/system/syncthing.service
 systemctl daemon-reload
 systemctl start syncthing
 systemctl enable syncthing
