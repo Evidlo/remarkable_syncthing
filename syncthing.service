@@ -2,8 +2,9 @@
 Description=syncthing
 
 [Service]
-ExecStart=/opt/bin/syncthing -no-browser -no-restart
-Restart=always
+Environment="HOME=/home/root"
+ExecStart=/opt/bin/syncthing serve --no-browser --no-restart
+Restart=unless-stopped
 
 [Install]
 WantedBy=multi-user.target
