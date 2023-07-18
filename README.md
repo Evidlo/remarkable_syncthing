@@ -4,7 +4,7 @@ A guide for setting up Syncthing on a reMarkable.
 
 ## Installation
 
-0. Install syncthing on the host machine and get the computer's id.  You must also have [Entware](http://github.com/evidlo/remarkable_entware) installed on the reMarkable.
+0. Install syncthing on the host machine and get the computer's id.  You must also have [Toltec](https://github.com/toltec-dev/toltec) or [Entware](http://github.com/evidlo/remarkable_entware) installed on the reMarkable.
 
 1. Install syncthing on the reMarkable and start up the configuration GUI.
 
